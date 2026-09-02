@@ -2,8 +2,10 @@
 
 **Last updated: 2 September 2026**
 
-Moon Football is a mobile football game. This policy explains what the game
-stores, what it sends, and who it sends it to.
+**Moon Football** (Android package `com.christosgeorgoulakis.moonfootball`) is a
+mobile football game published by **[REPLACE WITH YOUR NAME AS IT APPEARS ON
+YOUR GOOGLE PLAY DEVELOPER ACCOUNT]**, an individual developer. This policy
+explains what the game stores, what it sends, and who it sends it to.
 
 The short version: **the game has no accounts and never asks you for personal
 information.** There is nothing to sign up for and nothing to fill in. What
@@ -96,6 +98,21 @@ services](https://policies.google.com/technologies/partner-sites).
 
 ---
 
+## Security
+
+All data leaving the game is sent over encrypted HTTPS connections. The game
+holds no servers and no database of its own — everything described above is
+handled by Google's own infrastructure under its security practices, and your
+saved progress never leaves your device at all.
+
+Because the game has no accounts, there are no passwords or login credentials
+to protect, and none are ever collected.
+
+No system is perfectly secure. If you believe you have found a security problem
+with the game, please report it to the contact address below.
+
+---
+
 ## Data retention
 
 Analytics data is retained by Google Analytics for Firebase according to the
@@ -116,5 +133,6 @@ and the date at the top will change.
 
 **chris.georgoulakis@gmail.com**
 
-Moon Football is published by an individual developer. Questions about this
-policy, or requests concerning your data, can be sent to the address above.
+Questions about this
+policy, requests concerning your data, or security reports can be sent to the
+address above.
