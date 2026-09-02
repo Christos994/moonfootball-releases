@@ -114,7 +114,7 @@ and the date at the top will change.
 
 ## Contact
 
-**[REPLACE THIS WITH A CONTACT EMAIL ADDRESS BEFORE PUBLISHING]**
+**chris.georgoulakis@gmail.com**
 
 Moon Football is published by an individual developer. Questions about this
 policy, or requests concerning your data, can be sent to the address above.
