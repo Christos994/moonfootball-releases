@@ -3,8 +3,7 @@
 **Last updated: 2 September 2026**
 
 **Moon Football** (Android package `com.christosgeorgoulakis.moonfootball`) is a
-mobile football game published by **[REPLACE WITH YOUR NAME AS IT APPEARS ON
-YOUR GOOGLE PLAY DEVELOPER ACCOUNT]**, an individual developer. This policy
+mobile football game published by **Christos Georgoulakis**, an individual developer. This policy
 explains what the game stores, what it sends, and who it sends it to.
 
 The short version: **the game has no accounts and never asks you for personal
