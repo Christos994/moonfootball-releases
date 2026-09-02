@@ -133,6 +133,5 @@ and the date at the top will change.
 
 **chris.georgoulakis@gmail.com**
 
-Questions about this
-policy, requests concerning your data, or security reports can be sent to the
-address above.
+Questions about this policy, requests concerning your data, or security reports
+can be sent to the address above.
