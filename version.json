@@ -1,5 +1,5 @@
 {
-  "latestVersion": "0.2",
+  "latestVersion": "0.3",
   "storeUrl": "https://play.google.com/store/apps/details?id=com.christosgeorgoulakis.moonfootball",
   "releaseNotes": "Fixes a crash when continuing to the next fixture after watching an ad, and a stray extra reward chest."
 }
