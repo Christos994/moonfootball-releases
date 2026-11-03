@@ -173,7 +173,7 @@
   <header>
     <p class="kicker">Moon Football</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 2 September 2026</p>
+    <p class="updated">Last updated: 1 November 2026</p>
   </header>
 
   <p class="lede">
@@ -186,10 +186,12 @@
 
   <div class="callout">
     <p>
-      <strong>The short version:</strong> the game has no accounts and never
-      asks you for personal information. There is nothing to sign up for and
-      nothing to fill in. What leaves your device is limited to anonymous
-      gameplay statistics, crash reports, and the data needed to show adverts.
+      <strong>The short version:</strong> the game never asks you for personal
+      information. There is nothing to sign up for. What leaves your device is
+      limited to anonymous gameplay statistics, crash reports, and the data
+      needed to show adverts — and, only if you choose to play online, the team
+      name you pick and an anonymous player ID created automatically for online
+      play.
     </p>
   </div>
 
@@ -200,6 +202,10 @@
   <ul>
     <li>Your league season — fixtures, results, standings, and rewards you have won</li>
     <li>Your squad line-up and substitutions</li>
+    <li>Your online squad, and which players you have unlocked for it</li>
+    <li>Your online team name (it is also sent when you play online — see
+        <a href="#online">Playing online</a>)</li>
+    <li>The online players you have reported, so their games are hidden from you</li>
     <li>Whether you have muted the sound</li>
     <li>Which app version you last dismissed an update prompt for</li>
     <li>Your advertising consent choice</li>
@@ -246,6 +252,15 @@
               been released</td>
           <td>To tell you an update is available</td>
         </tr>
+        <tr>
+          <td>Unity Gaming Services<br>(only if you play online)</td>
+          <td>An anonymous player ID created automatically the first time you
+              open online play; your team name and the game version, while your
+              game is in the list of open games; your IP address and the match
+              itself as it passes between the two players' devices</td>
+          <td>To list open games, to connect you to the other player, and to
+              play the match</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -254,13 +269,50 @@
     The gameplay events sent to Analytics are things like: a match started,
     finished or was quit; the tutorial was started or completed; a league was
     started, completed or reset; a superpower was used; a substitute was brought
-    on; an advert was offered, watched or dismissed. They record what happened in
-    the game, not who you are.
+    on; an advert was offered, watched or dismissed; an online game was created,
+    found, finished or left early. They record what happened in the game, not
+    who you are. The one exception is a report of a team name, described under
+    <a href="#online">Playing online</a>.
   </p>
 
   <p>
     <strong>No advertising or analytics data is used to identify you personally,
     and none of it is sold.</strong>
+  </p>
+
+  <h2 id="online">Playing online</h2>
+
+  <p>
+    Online play is optional. Nothing on this list happens unless you open the
+    online menu from the league screen.
+  </p>
+
+  <ul>
+    <li><strong>An anonymous player ID.</strong> The first time you open online
+        play, Unity Authentication creates a random player ID for this
+        installation of the game. It is not linked to your name, email address,
+        phone number or Google account, and there is no password.</li>
+    <li><strong>Your team name is public.</strong> The name you choose is shown
+        to other players in the list of open games and during the match. Do not
+        use your real name or anything personal. Names may use letters, digits
+        and spaces, up to 14 characters, and offensive words are refused.</li>
+    <li><strong>The match.</strong> Your device and the other player's are
+        connected through Unity Relay. The other player never sees your IP
+        address; Unity's relay servers do, as they pass the match between the
+        two devices. Your squad, your moves and the score are exchanged with
+        the other player's device during the match.</li>
+    <li><strong>Reports.</strong> You can report another team's name from the
+        match menu or the full-time screen. A report sends the reported team
+        name, the reported player's anonymous ID and your own anonymous ID to
+        Google Analytics for Firebase, so the name can be reviewed. A player
+        whose name breaks these rules may be blocked from playing online. The
+        player you report is also hidden from your list of open games, on your
+        device.</li>
+  </ul>
+
+  <p>
+    Unity's handling of this data is described in the
+    <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.
   </p>
 
   <h2>Adverts and your consent</h2>
@@ -316,7 +368,9 @@
     To make a request about data held by the services above, contact us using
     the details below. Please note that analytics and crash data are not linked
     to a name or an account, so a request may need the app instance identifier
-    shown by those services to be actionable.
+    shown by those services to be actionable. For online play, telling us your
+    team name and roughly when you played lets us find your anonymous player
+    ID and delete it.
   </p>
 
   <p>
@@ -330,15 +384,16 @@
   <h2>Security</h2>
 
   <p>
-    All data leaving the game is sent over encrypted HTTPS connections. The game
-    holds no servers and no database of its own — everything described above is
-    handled by Google's own infrastructure under its security practices, and
-    your saved progress never leaves your device at all.
+    All data leaving the game is sent over encrypted connections — HTTPS, and
+    for online matches an encrypted (DTLS) connection through Unity Relay. The
+    game holds no servers and no database of its own — everything described
+    above is handled by Google's and Unity's own infrastructure under their
+    security practices, and your saved progress never leaves your device at all.
   </p>
 
   <p>
-    Because the game has no accounts, there are no passwords or login
-    credentials to protect, and none are ever collected.
+    The game has no accounts you create. The anonymous player ID used online
+    has no password, and no passwords or login credentials are ever collected.
   </p>
 
   <p>
@@ -353,6 +408,13 @@
     retention period configured for the project. Crash reports are retained by
     Crashlytics for up to 90 days. Advertising data is retained by Google as
     described in its own policy.
+  </p>
+
+  <p>
+    An open game, with its team name, leaves the list of open games as soon as
+    another player joins it, and is deleted from Unity's servers when the game
+    ends or is closed. The anonymous player ID used online is kept by Unity
+    until it is deleted; we delete it on request.
   </p>
 
   <h2>Changes to this policy</h2>
